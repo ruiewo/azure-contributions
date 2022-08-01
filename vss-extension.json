@@ -1,0 +1,37 @@
+{
+  "manifestVersion": 1,
+  "id": "azure-contributions",
+  "publisher": "ruiewo",
+  "version": "0.1.0",
+  "name": "Azure Contributions",
+  "description": "like GitHub's contributions graph.",
+  "public": false,
+  "categories": ["Azure Repos"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "contributions-hub",
+      "type": "ms.vss-web.hub",
+      "targets": ["ms.vss-code-web.code-hub-group"],
+      "properties": {
+        "name": "Contributions Hub",
+        "uri": "contributionsHub.html"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "contributionsHub.html",
+      "addressable": true
+    },
+    {
+      "path": "node_modules/vss-web-extension-sdk/lib",
+      "addressable": true,
+      "packagePath": "lib"
+    }
+  ]
+}

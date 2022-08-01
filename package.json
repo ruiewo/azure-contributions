@@ -1,0 +1,22 @@
+{
+  "name": "azure-contributions",
+  "version": "0.1.0",
+  "description": "like GitHub's contributions graph.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruiewo/azure-contributions.git"
+  },
+  "author": "ruiewo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruiewo/azure-contributions/issues"
+  },
+  "homepage": "https://github.com/ruiewo/azure-contributions#readme",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  }
+}
