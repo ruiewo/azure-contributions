@@ -1,6 +1,6 @@
 {
   "name": "azure-contributions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "like GitHub's contributions graph.",
   "main": "index.js",
   "scripts": {
