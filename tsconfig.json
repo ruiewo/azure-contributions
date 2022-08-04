@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        // "strictNullChecks": true,
+        // "noUnusedLocals": true,
+        // "noImplicitThis": true,
+        "alwaysStrict": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "lib": [
+            "dom",
+            "ES2017"
+        ],
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "target": "es5",
+        "jsx": "react"
+    }
+}

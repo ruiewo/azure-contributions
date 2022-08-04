@@ -4,7 +4,8 @@
   "description": "like GitHub's contributions graph.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --progress --mode development --watch",
+    "build": "webpack --progress --mode production"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,16 @@
   },
   "homepage": "https://github.com/ruiewo/azure-contributions#readme",
   "dependencies": {
-    "vss-web-extension-sdk": "^5.141.0"
+    "eslint": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "vss-web-extension-sdk": "^5.141.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }

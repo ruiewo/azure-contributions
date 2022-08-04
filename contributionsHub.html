@@ -13,6 +13,11 @@
     </style>
     <script type="text/javascript">
       VSS.init();
+
+      VSS.require(["react", "react-dom", "dist/index"], function () {
+        VSS.notifyLoadSucceeded();
+      });
+
       VSS.ready(function () {
         document.getElementById("name").innerText =
           VSS.getWebContext().user.name;
@@ -20,6 +25,7 @@
     </script>
   </head>
   <body>
+    <div id="root"></div>
     <h1>Hello, <span id="name"></span></h1>
   </body>
 </html>
